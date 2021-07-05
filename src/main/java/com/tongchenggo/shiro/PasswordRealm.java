@@ -21,7 +21,7 @@ public class PasswordRealm extends AuthorizingRealm {
     private UserService userService;
 
     /*
-    *subject.login(token)方法中的token是UsernamePasswordToken或者JwtToken时，调用此Realm的doGetAuthenticationInfo
+    *subject.login(token)方法中的token是UsernamePasswordToken时，调用此Realm的doGetAuthenticationInfo
     * 必须重写此方法
     *  */
     @Override
